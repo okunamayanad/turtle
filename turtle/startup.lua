@@ -1,4 +1,4 @@
-local myURL = "wss://example.tweaked.cc/echo"
+local myURL = "wss://connect.okunamayanad.com:7071/"
 local ws = http.websocket(myURL)
 ws.send("Hello!")
 local event, url, message
